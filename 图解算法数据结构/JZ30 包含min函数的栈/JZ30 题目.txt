@@ -1,0 +1,13 @@
+剑指 Offer 30. 包含min函数的栈
+定义栈的数据结构，请在该类型中实现一个能够得到栈的最小元素的 min 函数在该栈中，调用 min、push 及 pop 的时间复杂度都是 O(1)。
+
+Stack中有关empty()和isEmpty()的区别
+前者判断栈中size()是否为0，size()取值elementCount；
+后者直接判断栈中元素elementCount是否等于0，所以两者本质没有区别。
+
+
+java中“equals()”和“==”的区别
+参考链接：https://zhuanlan.zhihu.com/p/78395057
+如果两个对象内容相等，但是new的新对象地址不同，则用“==”比较结构是false，但是“equals()”比较结果是true
+==：比较的是两个字符串内存地址（堆内存）的数值是否相等，属于数值比较；
+equals()：比较的是两个字符串的内容，属于内容比较。
