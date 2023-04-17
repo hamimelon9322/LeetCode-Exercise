@@ -9,7 +9,7 @@ class Solution {
 class Solution {
     public String replaceSpace(String s) {
         StringBuilder res = new StringBuilder();
-        for(Character c : s.toCharArray()){// for(<数组/列表的数据类型> <临时变量名称>：<要迭代的数组/列表>)
+        for(Character c : s.toCharArray()){// for(<数组/列表的数据类型> <临时变量名称>：<要迭代的数组/列表>);toCharArray() 方法将字符串转换为字符数组
             if(c == ' ') res.append("%20");
             else res.append(c);
         }
