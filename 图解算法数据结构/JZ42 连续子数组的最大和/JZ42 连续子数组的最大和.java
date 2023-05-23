@@ -1,4 +1,4 @@
-// 非简化版
+// 非简化版 - 完整思路
 class Solution {
     public int maxSubArray(int[] nums) {
         if(nums.length == 0) return Integer.MIN_VALUE;
